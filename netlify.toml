@@ -9,6 +9,8 @@
 
 [context.test]
   publish='.'
+  command="echo 'woo hoo!'"
+  
 [context.test.environment]
   FOO="bar"
 
