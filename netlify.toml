@@ -9,7 +9,8 @@
 
 [context.test]
   publish='.'
-
+[context.test.environment]
+  FOO="bar"
 
 [build.environment]
   CI = ""
