@@ -7,6 +7,9 @@
 #  ignore = "git diff --quiet HEAD^ HEAD ."
 ##  command = "transform-build.sh"
 
+[context.test]
+  publish='.'
+
 
 [build.environment]
   CI = ""
